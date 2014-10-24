@@ -31,6 +31,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/lge/p880/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/lge/p880/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
+    vendor/lge/p880/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
+    vendor/lge/p880/proprietary/lib/egl/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so \
+    vendor/lge/p880/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \
     vendor/lge/p880/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/lge/p880/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/lge/p880/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
