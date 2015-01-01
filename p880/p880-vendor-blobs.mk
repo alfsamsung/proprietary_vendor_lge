@@ -21,19 +21,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/bin/nvcpud:system/bin/nvcpud \
     vendor/lge/p880/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/lge/p880/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
-    vendor/lge/p880/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
+    vendor/lge/p880/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so.bak \
     vendor/lge/p880/proprietary/lib/hw/sensors.tegra.so:system/lib/hw/sensors.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
-    vendor/lge/p880/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/p880/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/lge/p880/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/lge/p880/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
-    vendor/lge/p880/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
-    vendor/lge/p880/proprietary/lib/egl/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so \
-    vendor/lge/p880/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \
     vendor/lge/p880/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/lge/p880/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/lge/p880/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
