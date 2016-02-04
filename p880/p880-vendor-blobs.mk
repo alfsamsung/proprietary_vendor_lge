@@ -27,9 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
-    vendor/lge/p880/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
-    vendor/lge/p880/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
-    vendor/lge/p880/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
     vendor/lge/p880/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/lge/p880/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/lge/p880/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
@@ -56,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/lib/libnvmm_utils.so:system/lib/libnvmm_utils.so \
     vendor/lge/p880/proprietary/lib/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \
     vendor/lge/p880/proprietary/lib/libnvomxilclient.so:system/lib/libnvomxilclient.so \
-    vendor/lge/p880/proprietary/lib/libnvos.so:system/lib/libnvos.so \
     vendor/lge/p880/proprietary/lib/libnvrm_graphics.so:system/lib/libnvrm_graphics.so \
     vendor/lge/p880/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \
     vendor/lge/p880/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
@@ -86,9 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
     vendor/lge/p880/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
     vendor/lge/p880/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-    vendor/lge/p880/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
-    vendor/lge/p880/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
-    vendor/lge/p880/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so \
     vendor/lge/p880/proprietary/lib/libnvglsi.so:system/lib/libnvglsi.so \
     vendor/lge/p880/proprietary/lib/libnvcamerahdr.so:system/lib/libnvcamerahdr.so \
     vendor/lge/p880/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
@@ -96,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/lge/p880/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
     vendor/lge/p880/proprietary/lib/lgejpeg.so:system/lib/lgejpeg.so
-#    vendor/lge/p880/proprietary/bin/rild:system/bin/rild \
 
 # DRM
 PRODUCT_COPY_FILES += \
@@ -104,3 +96,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/lge/p880/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/p880/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
+
+#EGL with libdgv1
+PRODUCT_COPY_FILES += \
+    vendor/lge/p880/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
+    vendor/lge/p880/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so
